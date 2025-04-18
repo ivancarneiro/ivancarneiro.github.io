@@ -1,0 +1,23 @@
+# Entorno virtual
+
+venv/ .env
+
+# Archivos de Python
+
+\*.pyc **pycache**/ \*.pyo \*.pyd .Python pip-log.txt pip-delete-this-directory.txt
+
+# Archivos de entorno y configuración
+
+\*.env \*.env.local \*.env.development.local \*.env.test.local \*.env.production.local
+
+# Archivos temporales y de sistema
+
+.DS_Store Thumbs.db \*.log
+
+# Carpetas de compilación y caché
+
+build/ dist/ \*.egg-info/ \*.egg
+
+# Archivos de IDE
+
+.idea/ .vscode/ \*.sublime-project \*.sublime-workspace
