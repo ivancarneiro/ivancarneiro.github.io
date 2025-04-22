@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ivan Carneiro</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -13,29 +15,30 @@
     <div class="outer">
         <header class="site-header">
             <div class="wrapper">
-
-                <a class="site-title" href="#">Iván Exequiel Carneiro</a>
+                <a class="site-title" href="#">Ivan Carneiro</a>
                 <div class="container noPrint">
-                    <a href="#about" class="btn btn-danger">Sobre mi</a>
+                    <a href="#about" class="btn btn-danger">Sobre mí</a>
                     <a href="#exp" class="btn btn-danger">Experiencia</a>
                     <a href="#edu" class="btn btn-danger">Educación</a>
                     <a href="#skills" class="btn btn-danger">Habilidades</a>
+                    <a href="#cert" class="btn btn-danger">Certificaciones</a>
+                    <a href="#proyectos" class="btn btn-danger">Proyectos</a>
+                    <a href="#idiomas" class="btn btn-danger">Idiomas</a>
                 </div>
             </div>
 
             <div class="header-badge">
                 <a data-toggle="modal" data-target="#shareModal">
-                    <img height="100%" width="100" src="https://picsum.photos/500/500">
+                    <img height="100%" width="100" src="media/img/profile.jpg">
                 </a>
             </div>
         </header>
-
 
         <div class="page-content">
             <div class="wrapper">
                 <div class="home">
                     <div class="top card">
-                        <a class="email" href="mailto:cweckmaniii@gmail.com">
+                        <a class="email" href="mailto:ivanexequielc@gmail.com">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 class="bi bi-envelope-at" viewBox="0 0 16 16">
                                 <path
@@ -43,285 +46,767 @@
                                 <path
                                     d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z" />
                             </svg>
-                            Escribeme
+                            Escribime
                         </a>
                         <p class="description">
-                            Con una trayectoria que supera los cinco años en ciberseguridad, me dedico a proteger la
-                            infraestructura crítica de Gendarmería Nacional Argentina. Mis especialidades incluyen el
-                            análisis de logs, el uso de herramientas SIEM y una comprensión avanzada de tácticas y
-                            técnicas de ataque, lo que me permite responder con efectividad a incidentes de seguridad
-                            cibernética.
-
-                            Mi compromiso se centra en preservar la integridad de los sistemas de información y proteger
-                            datos sensibles. En el día a día, aplico mis capacidades para reforzar la seguridad
-                            organizacional y contribuyo al esfuerzo colectivo para construir una postura de resiliencia
-                            ante las amenazas digitales. Colaboro con mi equipo para diseñar estrategias dinámicas que
-                            se adelanten a los riesgos emergentes, garantizando así la seguridad nacional.
-
-                            Conjuntamente colaboro en la capacitación y concientización del personal técnico y no
-                            técnico de Gendarmería en materias de seguridad de la información, mediante el dictado de
-                            diversos cursos.
+                            Profesional con más de cinco años en ciberseguridad, protegiendo la infraestructura crítica de Gendarmería Nacional Argentina. Especializado en análisis de logs, herramientas SIEM y respuesta a incidentes, garantizo la integridad de sistemas y datos sensibles. Colaboro en estrategias de seguridad y capacito al personal en buenas prácticas.
                         </p>
                         <a href="respdf.pdf"
                             style="display: block; width: 45%; max-width: 250px; margin-left: auto; margin-right: auto"
                             onclick="window.print()" class="btn btn-res">Imprimir CV</a>
                     </div>
+
                     <a id="about"></a>
                     <div class="posts card">
                         <div class="card-content white-text">
-                            <span class="card-title">What I have to say about myself...</span>
-
+                            <span class="card-title">Acerca de mí</span>
                             <ul class="post-list">
-
                                 <div>
-
-                                    <p class="say-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis
-                                        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum.</p>
-
+                                    <p class="say-body">
+                                        Analista de ciberseguridad con más de cinco años de experiencia en Gendarmería Nacional Argentina, especializado en análisis de logs y respuesta a incidentes. Comprometido con la seguridad organizacional y la capacitación en buenas prácticas.
+                                    </p>
                                 </div>
-
-
                             </ul>
-
                         </div>
                     </div>
+
                     <a id="exp"></a>
+                    <div class="posts card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Experiencia</span>
+                            <ul class="post-list">
+                                
+                                <li>
+                                    <a href="#">Analista SOC CSIRT-GNA / CSIRT-MINSEG - Gendarmería Nacional Argentina</a>
+                                    <div>
+                                        <p><small>2020-01 - 2025-04</small></p>
+                                        Monitoreo de sistemas en tiempo real, respuesta a incidentes de ciberseguridad, análisis de logs con SIEM, elaboración de informes, y uso de herramientas de seguridad. Implementación de políticas de seguridad y comprensión de tácticas y técnicas de ataque.
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <a href="#">Profesor Militar - Gendarmería Nacional Argentina</a>
+                                    <div>
+                                        <p><small>2016-02 - 2019-12</small></p>
+                                        Profesor Militar en el Instituto de Capacitación Especializada 'Cabo Juan Adolfo Romero' en la especialidad Mecánico de Comunicaciones. Enseñanza de Propagación y Antenas, Equipos de Comunicación e Introducción a Redes.
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <a href="#">Especialista de asistencia de TI - Gendarmería Nacional Argentina</a>
+                                    <div>
+                                        <p><small>2016-01 - 2019-12</small></p>
+                                        Soporte técnico, reparación de equipos informáticos, instalación de software, y asistencia en telecomunicaciones. Aplicación de herramientas de seguridad y resolución de problemas técnicos.
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
                     <a id="edu"></a>
                     <div class="posts card">
                         <div class="card-content white-text">
-                            <span class="card-title">Experience</span>
-
-                            <ul class="post-list ">
-
-
-                                <li><a href="#">SCHOOL</a>
+                            <span class="card-title">Educación</span>
+                            <ul class="post-list">
+                                
+                                <li>
+                                    <a href="#">Curso Suboficiales Especialidad Mecánico de Comunicaciones - Instituto de Capacitación Especializada 'Cabo Juan Adolfo Romero'</a>
                                     <div>
-                                        <p><small>DEGREE</small>
-                                        </p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        <p><small>Finalizado en 2014-12</small></p>
+                                        Promedio general: 9.5
                                     </div>
                                 </li>
-                                <li><a href="#">SCHOOL</a>
+                                
+                                <li>
+                                    <a href="#">Educación Secundaria - Modalidad Humanidades y Ciencias Sociales - Instituto San Francisco, Servicio Provincial de Enseñanza Privada de Misiones</a>
                                     <div>
-                                        <p><small>DEGREE</small>
-                                        </p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        <p><small>Finalizado en 2005-12</small></p>
+                                        Promedio general: 8.05
                                     </div>
                                 </li>
-                                <li><a href="https://sheldontheturtle.com/">Sheldon The Turtle</a>
-                                    <div>
-                                        <p><small>May 2016 - Present</small>
-                                        </p>This is a vey special blog. It's a blog...for a turtle! I am the center of
-                                        this blog as I did all the designing, developing, and set-up. I didn't have a
-                                        team yet so what else could I do?
-                                    </div>
-                                </li>
-                                <a id="skills"></a>
-                                <!-- Placed here for propper alignment -->
-                                <li><a href="https://clarkhacks.github.io">Clark Hacks Offical Blog</a>
-                                    <div>
-                                        <p><small><a href="https://github.com/clarkhacks/clarkhacks.github.io/releases/"
-                                                    style="font-size: 1em;">Previous Versions</a> <br>November 5th, 2016
-                                                - Present </small>
-                                        </p>This is my personal blog all done by me. It was generated with the static
-                                        site generator, Jekyll. Jekyll is such an amazing tool and I cannot wait for the
-                                        next release!
-                                    </div>
-                                </li>
-
-
+                                
                             </ul>
-
                         </div>
                     </div>
 
+                    <a id="skills"></a>
                     <div class="posts card">
-
                         <div class="card-content white-text">
-                            <span class="card-title">Skills</span>
-
+                            <span class="card-title">Habilidades</span>
                             <ul class="post-list noPrint">
-
-
+                                
+                                <li>
+                                    <span class="card-title">Ciberseguridad</span>
+                                </li>
+                                
                                 <li>
                                     <div class="progress">
-                                        <div class="progress-bar progress-bar-success" role="progressbar"
-                                            aria-valuenow="99" aria-valuemin="0" aria-valuemax="100" style="width:99%">
+                                        <div class="progress-bar progress-bar-success"
+                                            role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:80%">
+                                            Respuesta a incidentes de ciberseguridad
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success"
+                                            role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:80%">
+                                            Análisis de Logs y SIEM
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-warning"
+                                            role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:75%">
+                                            FortiSIEM
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-warning"
+                                            role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:75%">
+                                            FortiGate
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-warning"
+                                            role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:75%">
+                                            FortiMail
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success"
+                                            role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:85%">
+                                            Principios de Ciberseguridad
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success"
+                                            role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:80%">
+                                            Hacking Ético
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success"
+                                            role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:80%">
+                                            Conocimientos de Redes y Sistemas
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success"
+                                            role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:90%">
+                                            Introducción a Redes
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-warning"
+                                            role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:50%">
+                                            Protección de Infraestructura Crítica
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-warning"
+                                            role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:70%">
+                                            Protección de Datos Personales
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-warning"
+                                            role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:60%">
+                                            Comprensión de Tácticas y Técnicas de Ataque
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-warning"
+                                            role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:60%">
+                                            Herramientas de seguridad
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                
+                                <li>
+                                    <span class="card-title">Técnicas</span>
+                                </li>
+                                
+                                <li>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-warning"
+                                            role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:40%">
+                                            Python
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-warning"
+                                            role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:40%">
+                                            Django
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-warning"
+                                            role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:60%">
                                             HTML
                                         </div>
                                     </div>
                                 </li>
+                                
                                 <li>
                                     <div class="progress">
-                                        <div class="progress-bar progress-bar-success" role="progressbar"
-                                            aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width:98%">
-                                            CSS
+                                        <div class="progress-bar progress-bar-warning"
+                                            role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:50%">
+                                            Programación Orientada a Objetos
                                         </div>
                                     </div>
                                 </li>
+                                
                                 <li>
                                     <div class="progress">
-                                        <div class="progress-bar progress-bar-success" role="progressbar"
-                                            aria-valuenow="97" aria-valuemin="0" aria-valuemax="100" style="width:97%">
-                                            Git / GitHub
+                                        <div class="progress-bar progress-bar-warning"
+                                            role="progressbar" aria-valuenow="30" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:30%">
+                                            Bases de Datos
                                         </div>
                                     </div>
                                 </li>
+                                
                                 <li>
                                     <div class="progress">
-                                        <div class="progress-bar progress-bar-success" role="progressbar"
-                                            aria-valuenow="93" aria-valuemin="0" aria-valuemax="100" style="width:93%">
-                                            Jekyll
+                                        <div class="progress-bar progress-bar-warning"
+                                            role="progressbar" aria-valuenow="30" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:30%">
+                                            Linux
                                         </div>
                                     </div>
                                 </li>
+                                
                                 <li>
                                     <div class="progress">
-                                        <div class="progress-bar progress-bar-success" role="progressbar"
-                                            aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                                            BootStrap
+                                        <div class="progress-bar progress-bar-warning"
+                                            role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:40%">
+                                            Windows
                                         </div>
                                     </div>
                                 </li>
+                                
                                 <li>
                                     <div class="progress">
-                                        <div class="progress-bar progress-bar-success" role="progressbar"
-                                            aria-valuenow="89" aria-valuemin="0" aria-valuemax="100" style="width:89%">
-                                            PhotoShop
+                                        <div class="progress-bar progress-bar-success"
+                                            role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:80%">
+                                            Reparación de equipos informáticos
                                         </div>
                                     </div>
                                 </li>
+                                
                                 <li>
                                     <div class="progress">
-                                        <div class="progress-bar progress-bar-info" role="progressbar"
-                                            aria-valuenow="87" aria-valuemin="0" aria-valuemax="100" style="width:87%">
-                                            JavaScript
+                                        <div class="progress-bar progress-bar-success"
+                                            role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:85%">
+                                            Instalación de software
                                         </div>
                                     </div>
                                 </li>
+                                
                                 <li>
                                     <div class="progress">
-                                        <div class="progress-bar progress-bar-info" role="progressbar"
-                                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-                                            jQuery
+                                        <div class="progress-bar progress-bar-warning"
+                                            role="progressbar" aria-valuenow="30" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:30%">
+                                            Blockchain
                                         </div>
                                     </div>
                                 </li>
+                                
                                 <li>
                                     <div class="progress">
-                                        <div class="progress-bar progress-bar-info" role="progressbar"
-                                            aria-valuenow="74" aria-valuemin="0" aria-valuemax="100" style="width:74%">
-                                            Angular
+                                        <div class="progress-bar progress-bar-warning"
+                                            role="progressbar" aria-valuenow="45" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:45%">
+                                            Pensamiento Computacional
                                         </div>
                                     </div>
                                 </li>
+                                
+                                
+                                <li>
+                                    <span class="card-title">Blandas</span>
+                                </li>
+                                
                                 <li>
                                     <div class="progress">
-                                        <div class="progress-bar progress-bar-warning" role="progressbar"
-                                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                                            Python</div>
+                                        <div class="progress-bar progress-bar-success"
+                                            role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:80%">
+                                            Resolución de problemas
+                                        </div>
                                     </div>
                                 </li>
-
+                                
                                 <li>
                                     <div class="progress">
-                                        <div class="progress-bar progress-bar-warning" role="progressbar"
-                                            aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:30%">
-                                            Ruby</div>
+                                        <div class="progress-bar progress-bar-warning"
+                                            role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:70%">
+                                            Elaboración de informes
+                                        </div>
                                     </div>
                                 </li>
-
-
+                                
+                                <li>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success"
+                                            role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:80%">
+                                            Adaptabilidad y aprendizaje continuo
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success"
+                                            role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:80%">
+                                            Pensamiento crítico y analítico
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar-success"
+                                            role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                            aria-valuemax="100" style="width:90%">
+                                            Trabajo en equipo
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                
                             </ul>
-
-                            <!--ONLY FOR PRINTER -->
                             <ul class="noScreen post-list">
-
-
+                                
                                 <li>
-                                    <strong>HTML</strong>
+                                    <strong>Ciberseguridad</strong>
                                 </li>
+                                
                                 <li>
-                                    <strong>CSS</strong>
+                                    Respuesta a incidentes de ciberseguridad
                                 </li>
+                                
                                 <li>
-                                    <strong>Git / Github</strong>
+                                    Análisis de Logs y SIEM
                                 </li>
+                                
                                 <li>
-                                    <strong>Jekyll</strong>
+                                    FortiSIEM
                                 </li>
+                                
                                 <li>
-                                    <strong>BootStrap</strong>
+                                    FortiGate
                                 </li>
+                                
                                 <li>
-                                    <strong>PhotoShop</strong>
+                                    FortiMail
                                 </li>
+                                
                                 <li>
-                                    <strong>JavaScript</strong>
+                                    Principios de Ciberseguridad
                                 </li>
+                                
                                 <li>
-                                    <strong>jQuery</strong>
+                                    Hacking Ético
                                 </li>
+                                
                                 <li>
-                                    <strong>Angular</strong>
+                                    Conocimientos de Redes y Sistemas
                                 </li>
+                                
                                 <li>
-                                    <strong>Python</strong>
+                                    Introducción a Redes
                                 </li>
-
+                                
                                 <li>
-                                    <strong>Ruby</strong>
+                                    Protección de Infraestructura Crítica
                                 </li>
-
-
+                                
+                                <li>
+                                    Protección de Datos Personales
+                                </li>
+                                
+                                <li>
+                                    Comprensión de Tácticas y Técnicas de Ataque
+                                </li>
+                                
+                                <li>
+                                    Herramientas de seguridad
+                                </li>
+                                
+                                
+                                <li>
+                                    <strong>Técnicas</strong>
+                                </li>
+                                
+                                <li>
+                                    Python
+                                </li>
+                                
+                                <li>
+                                    Django
+                                </li>
+                                
+                                <li>
+                                    HTML
+                                </li>
+                                
+                                <li>
+                                    Programación Orientada a Objetos
+                                </li>
+                                
+                                <li>
+                                    Bases de Datos
+                                </li>
+                                
+                                <li>
+                                    Linux
+                                </li>
+                                
+                                <li>
+                                    Windows
+                                </li>
+                                
+                                <li>
+                                    Reparación de equipos informáticos
+                                </li>
+                                
+                                <li>
+                                    Instalación de software
+                                </li>
+                                
+                                <li>
+                                    Blockchain
+                                </li>
+                                
+                                <li>
+                                    Pensamiento Computacional
+                                </li>
+                                
+                                
+                                <li>
+                                    <strong>Blandas</strong>
+                                </li>
+                                
+                                <li>
+                                    Resolución de problemas
+                                </li>
+                                
+                                <li>
+                                    Elaboración de informes
+                                </li>
+                                
+                                <li>
+                                    Adaptabilidad y aprendizaje continuo
+                                </li>
+                                
+                                <li>
+                                    Pensamiento crítico y analítico
+                                </li>
+                                
+                                <li>
+                                    Trabajo en equipo
+                                </li>
+                                
+                                
                             </ul>
+                        </div>
+                    </div>
 
+                    <a id="cert"></a>
+                    <div class="posts card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Certificaciones</span>
+                            <ul class="post-list">
+                                
+                                <li>
+                                    <a href="media/certificados/20241030._DOJO_ANALISTA-SOC-N1.pdf">Bootcamp Analista SOC Nivel 1 - v. 5</a>
+                                    <div>
+                                        <p><small>Fundación Comunidad Dojo y Women of Security Panamá - 2024-10</small></p>
+                                        
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://www.credly.com/badges/a7d13d3e-8b40-4ab6-b471-ecadbcf42a8c/public_url">Fortinet Certified Associate Cybersecurity</a>
+                                    <div>
+                                        <p><small>Fortinet Training Institute - 2024-10</small></p>
+                                        
+                                        ID: a7d13d3e-8b40-4ab6-b471-ecadbcf42a8c
+                                        
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <a href="media/certificados/20240927._FCP_-_FortiSIEM_6.3_Self-Paced.pdf">FCP - FortiSIEM 6.3 Self-Paced</a>
+                                    <div>
+                                        <p><small>Fortinet Training Institute - 2024-09</small></p>
+                                        
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://www.credly.com/badges/30659c58-3fb0-4325-82f3-a99c384478cd/public_url">FCA - FortiGate 7.4 Operator Self-Paced</a>
+                                    <div>
+                                        <p><small>Fortinet Training Institute - 2024-10</small></p>
+                                        
+                                        ID: a5b89a23-ca39-49b8-806d-e65fd3ce1dee
+                                        
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <a href="media/certificados/20220805._DACAS_-_Capacitación_FortiGate_NSE4_Security_&_Infraestructure_ver_7.0.png">FortiGate NSE4 Security & Infrastructure ver 7.0</a>
+                                    <div>
+                                        <p><small>Dacas University - 2022-08</small></p>
+                                        
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://www.credly.com/badges/03876503-5ea1-4515-b186-17ca1e770baf/public_url">Cybersecurity Essentials</a>
+                                    <div>
+                                        <p><small>Cisco Networking Academy - 2024-05</small></p>
+                                        
+                                        ID: 03876503-5ea1-4515-b186-17ca1e770baf
+                                        
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://www.credly.com/badges/30659c58-3fb0-4325-82f3-a99c384478cd/public_url">Introduction to Cybersecurity</a>
+                                    <div>
+                                        <p><small>Cisco Networking Academy - 2023-09</small></p>
+                                        
+                                        ID: 30659c58-3fb0-4325-82f3-a99c384478cd
+                                        
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://sigead.utnba.centrodeelearning.com/alumnos/validar_certificado">Experto Universitario en Hacking Ético</a>
+                                    <div>
+                                        <p><small>Universidad Tecnológica Nacional (UTN), Facultad Regional Buenos Aires - 2019-08</small></p>
+                                        
+                                        ID: CER-K1SSDQFY-349351
+                                        
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://learn.opswatacademy.com/certificate/vk9F_9tczQ">Introduction to Critical Infrastructure Protection</a>
+                                    <div>
+                                        <p><small>OPS-SAT Academy - 2025-02</small></p>
+                                        
+                                        ID: vK9F.9tczQ
+                                        
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <a href="media/certificados/20181119._Ciberseguridad_y_protección_de_datos_personales._Deloitte-Siglo21.pdf">Ciberseguridad y Protección de Datos Personales</a>
+                                    <div>
+                                        <p><small>Deloitte y Universidad Siglo 21 - 2018-11</small></p>
+                                        
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://www.credly.com/badges/4068bac7-d13f-4968-a124-4a5e218f706c/public_url">Networking Basics</a>
+                                    <div>
+                                        <p><small>Cisco Networking Academy - 2024-02</small></p>
+                                        
+                                        ID: 4068bac7-d13f-4968-a124-4a5e218f706c
+                                        
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <a href="media/certificados/20180930._Curso_Avanzado_en_Redes_GNA.pdf">Curso Avanzado de Redes</a>
+                                    <div>
+                                        <p><small>Gendarmería Nacional Argentina - 2018-09</small></p>
+                                        
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <a href="media/certificados/20241219._Ethereum_Developer_Pack.png">Ethereum Developer Pack Programa Completo</a>
+                                    <div>
+                                        <p><small>Talent Tech y ETH Kipu / Buenos Aires Aprende - 2024-10</small></p>
+                                        
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://www.buenosaires.gob.ar/portal-autenticidad">Trayecto Programador</a>
+                                    <div>
+                                        <p><small>Ministerio de Educación de la Ciudad Autónoma de Buenos Aires - 2024-08</small></p>
+                                        
+                                        ID: CE-2024-42463231-GCABA-DGAHPEF
+                                        
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <a href="media/certificados/20230720._Codo_A_Codo_4.0_-_Especialización_en_Django.pdf">Codo a Codo 4.0 - Especialización en Django</a>
+                                    <div>
+                                        <p><small>Gobierno de la Ciudad de Buenos Aires - 2023-07</small></p>
+                                        
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <a href="media/certificados/20221215._Codo_A_Codo_4.0_-_Full_Stack_Python.pdf">Codo a Codo 4.0 - Full Stack Python</a>
+                                    <div>
+                                        <p><small>Gobierno de la Ciudad de Buenos Aires - 2022-12</small></p>
+                                        
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <a href="media/certificados/20230617._Pensamiento_Computacional_-_Agencia_de_Aprendizaje_a_lo_largo_de_la_vida_CABA.pdf">Pensamiento Computacional</a>
+                                    <div>
+                                        <p><small>Agencia de Aprendizaje a lo largo de la vida, Ministerio de Educación, Gobierno de la Ciudad de Buenos Aires - 2023-06</small></p>
+                                        
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
 
+                    <a id="proyectos"></a>
+                    <div class="posts card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Proyectos</span>
+                            <ul class="post-list">
+                                
+                                <li>
+                                    <a href="https://github.com/ivancarneiro/tickersec">Sistema de Ticketing con Django</a>
+                                    <div>
+                                        <p><small>2022</small></p>
+                                        Estoy en desarrollando un sistema web para registros de tickets de incidencias en Gendarmería Nacional Argentina.
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <a id="idiomas"></a>
+                    <div class="posts card">
+                        <div class="card-content white-text">
+                            <span class="card-title">Idiomas</span>
+                            <ul class="post-list">
+                                
+                                <li>
+                                    <a href="#">Español - Nativo</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="#">Portugues - Conversacional</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="#">Inglés - Técnico</a>
+                                </li>
+                                
+                            </ul>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
 
         <footer class="site-footer">
-
             <div class="wrapper">
-
-                <span class="footer-heading">YOUR NAME | Resume</span>
-
+                <span class="footer-heading">IVAN EXEQUIEL CARNEIRO | CV</span>
             </div>
-
         </footer>
-
     </div>
+
     <div class="modal fade" id="shareModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
         aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-body">
                     <div id="social">
-                        <a class="facebookBtn smGlobalBtn"
-                            href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fclarkhacks.github.io%2Fresume%2Fdoc"></a>
-                        <a class="twitterBtn smGlobalBtn"
-                            href="https://twitter.com/intent/tweet/?text=Share&amp;url=https%3A%2F%2Fclarkhacks.github.io%2Fresume%2Fdoc"></a>
-                        <a class="googleplusBtn smGlobalBtn"
-                            href="https://plus.google.com/share?url=https%3A%2F%2Fclarkhacks.github.io%2Fresume%2Fdoc"></a>
-                        <a class="pinterestBtn smGlobalBtn"
-                            href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fclarkhacks.github.io%2Fresume%2Fdoc&amp;media=https%3A%2F%2Fclarkhacks.github.io%2Fresume%2Fdoc&amp;summary=Share"></a>
-                        <a class="tumblrBtn smGlobalBtn"
-                            href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=Share&amp;caption=Share&amp;content=https%3A%2F%2Fclarkhacks.github.io%2Fresume%2Fdoc&amp;canonicalUrl=https%3A%2F%2Fclarkhacks.github.io%2Fresume%2Fdoc&amp;shareSource=tumblr_share_button"></a>
-                        <a class="emailBtn smGlobalBtn"
-                            href="mailto:?subject=Share&amp;body=https%3A%2F%2Fclarkhacks.github.io%2Fresume%2Fdoc"></a>
+                        <a class="linkedinBtn smGlobalBtn" href="https://www.linkedin.com/in/ivan-carneiro"></a>
+                        <a class="emailBtn smGlobalBtn" href="mailto:ivanexequielc@gmail.com"></a>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>

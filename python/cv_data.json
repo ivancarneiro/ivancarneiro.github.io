@@ -1,0 +1,227 @@
+{
+    "nombre": "Ivan Carneiro",
+    "titulo": "Analista SOC CSIRT",
+    "email": "ivanexequielc@gmail.com",
+    "linkedin_url": "https://www.linkedin.com/in/ivan-carneiro",
+    "descripcion": "Profesional con más de cinco años en ciberseguridad, protegiendo la infraestructura crítica de Gendarmería Nacional Argentina. Especializado en análisis de logs, herramientas SIEM y respuesta a incidentes, garantizo la integridad de sistemas y datos sensibles. Colaboro en estrategias de seguridad y capacito al personal en buenas prácticas.",
+    "about": "Analista de ciberseguridad con más de cinco años de experiencia en Gendarmería Nacional Argentina, especializado en análisis de logs y respuesta a incidentes. Comprometido con la seguridad organizacional y la capacitación en buenas prácticas.",
+    "experiencia": [
+        {
+            "cargo": "Analista SOC CSIRT-GNA / CSIRT-MINSEG",
+            "empresa": "Gendarmería Nacional Argentina",
+            "ubicacion": "Buenos Aires, Argentina",
+            "periodo": "2020-01 - 2025-04",
+            "descripcion": "Monitoreo de sistemas en tiempo real, respuesta a incidentes de ciberseguridad, análisis de logs con SIEM, elaboración de informes, y uso de herramientas de seguridad. Implementación de políticas de seguridad y comprensión de tácticas y técnicas de ataque."
+        },
+        {
+            "cargo": "Profesor Militar",
+            "empresa": "Gendarmería Nacional Argentina",
+            "ubicacion": "Mercedes, Buenos Aires, Argentina",
+            "periodo": "2016-02 - 2019-12",
+            "descripcion": "Profesor Militar en el Instituto de Capacitación Especializada 'Cabo Juan Adolfo Romero' en la especialidad Mecánico de Comunicaciones. Enseñanza de Propagación y Antenas, Equipos de Comunicación e Introducción a Redes."
+        },
+        {
+            "cargo": "Especialista de asistencia de TI",
+            "empresa": "Gendarmería Nacional Argentina",
+            "ubicacion": "Mercedes, Buenos Aires, Argentina",
+            "periodo": "2016-01 - 2019-12",
+            "descripcion": "Soporte técnico, reparación de equipos informáticos, instalación de software, y asistencia en telecomunicaciones. Aplicación de herramientas de seguridad y resolución de problemas técnicos."
+        }
+    ],
+    "educacion": [
+        {
+            "titulo": "Curso Suboficiales Especialidad Mecánico de Comunicaciones",
+            "institucion": "Instituto de Capacitación Especializada 'Cabo Juan Adolfo Romero'",
+            "ubicacion": "Mercedes, Buenos Aires, Argentina",
+            "periodo": "Finalizado en 2014-12",
+            "descripcion": "Promedio general: 9.5"
+        },
+        {
+            "titulo": "Educación Secundaria - Modalidad Humanidades y Ciencias Sociales",
+            "institucion": "Instituto San Francisco, Servicio Provincial de Enseñanza Privada de Misiones",
+            "ubicacion": "San Pedro, Misiones, Argentina",
+            "periodo": "Finalizado en 2005-12",
+            "descripcion": "Promedio general: 8.05"
+        }
+    ],
+    "certificaciones": [
+        {
+            "nombre": "Bootcamp Analista SOC Nivel 1 - v. 5",
+            "organizacion": "Fundación Comunidad Dojo y Women of Security Panamá",
+            "fecha": "2024-10",
+            "credencial_id": "",
+            "credencial_url": "media/certificados/20241030._DOJO_ANALISTA-SOC-N1.pdf"
+        },
+        {
+            "nombre": "Fortinet Certified Associate Cybersecurity",
+            "organizacion": "Fortinet Training Institute",
+            "fecha": "2024-10",
+            "credencial_id": "a7d13d3e-8b40-4ab6-b471-ecadbcf42a8c",
+            "credencial_url": "https://www.credly.com/badges/a7d13d3e-8b40-4ab6-b471-ecadbcf42a8c/public_url"
+        },
+        {
+            "nombre": "FCP - FortiSIEM 6.3 Self-Paced",
+            "organizacion": "Fortinet Training Institute",
+            "fecha": "2024-09",
+            "credencial_id": "",
+            "credencial_url": "media/certificados/20240927._FCP_-_FortiSIEM_6.3_Self-Paced.pdf"
+        },
+        {
+            "nombre": "FCA - FortiGate 7.4 Operator Self-Paced",
+            "organizacion": "Fortinet Training Institute",
+            "fecha": "2024-10",
+            "credencial_id": "a5b89a23-ca39-49b8-806d-e65fd3ce1dee",
+            "credencial_url": "https://www.credly.com/badges/30659c58-3fb0-4325-82f3-a99c384478cd/public_url"
+        },
+        {
+            "nombre": "FortiGate NSE4 Security & Infrastructure ver 7.0",
+            "organizacion": "Dacas University",
+            "fecha": "2022-08",
+            "credencial_id": "",
+            "credencial_url": "media/certificados/20220805._DACAS_-_Capacitación_FortiGate_NSE4_Security_&_Infraestructure_ver_7.0.png"
+        },
+        {
+            "nombre": "Cybersecurity Essentials",
+            "organizacion": "Cisco Networking Academy",
+            "fecha": "2024-05",
+            "credencial_id": "03876503-5ea1-4515-b186-17ca1e770baf",
+            "credencial_url": "https://www.credly.com/badges/03876503-5ea1-4515-b186-17ca1e770baf/public_url"
+        },
+        {
+            "nombre": "Introduction to Cybersecurity",
+            "organizacion": "Cisco Networking Academy",
+            "fecha": "2023-09",
+            "credencial_id": "30659c58-3fb0-4325-82f3-a99c384478cd",
+            "credencial_url": "https://www.credly.com/badges/30659c58-3fb0-4325-82f3-a99c384478cd/public_url"
+        },
+        {
+            "nombre": "Experto Universitario en Hacking Ético",
+            "organizacion": "Universidad Tecnológica Nacional (UTN), Facultad Regional Buenos Aires",
+            "fecha": "2019-08",
+            "credencial_id": "CER-K1SSDQFY-349351",
+            "credencial_url": "https://sigead.utnba.centrodeelearning.com/alumnos/validar_certificado"
+        },
+        {
+            "nombre": "Introduction to Critical Infrastructure Protection",
+            "organizacion": "OPS-SAT Academy",
+            "fecha": "2025-02",
+            "credencial_id": "vK9F.9tczQ",
+            "credencial_url": "https://learn.opswatacademy.com/certificate/vk9F_9tczQ"
+        },
+        {
+            "nombre": "Ciberseguridad y Protección de Datos Personales",
+            "organizacion": "Deloitte y Universidad Siglo 21",
+            "fecha": "2018-11",
+            "credencial_id": "",
+            "credencial_url": "media/certificados/20181119._Ciberseguridad_y_protección_de_datos_personales._Deloitte-Siglo21.pdf"
+        },
+        {
+            "nombre": "Networking Basics",
+            "organizacion": "Cisco Networking Academy",
+            "fecha": "2024-02",
+            "credencial_id": "4068bac7-d13f-4968-a124-4a5e218f706c",
+            "credencial_url": "https://www.credly.com/badges/4068bac7-d13f-4968-a124-4a5e218f706c/public_url"
+        },
+        {
+            "nombre": "Curso Avanzado de Redes",
+            "organizacion": "Gendarmería Nacional Argentina",
+            "fecha": "2018-09",
+            "credencial_id": "",
+            "credencial_url": "media/certificados/20180930._Curso_Avanzado_en_Redes_GNA.pdf"
+        },
+        {
+            "nombre": "Ethereum Developer Pack Programa Completo",
+            "organizacion": "Talent Tech y ETH Kipu / Buenos Aires Aprende",
+            "fecha": "2024-10",
+            "credencial_id": "",
+            "credencial_url": "media/certificados/20241219._Ethereum_Developer_Pack.png"
+        },
+        {
+            "nombre": "Trayecto Programador",
+            "organizacion": "Ministerio de Educación de la Ciudad Autónoma de Buenos Aires",
+            "fecha": "2024-08",
+            "credencial_id": "CE-2024-42463231-GCABA-DGAHPEF",
+            "credencial_url": "https://www.buenosaires.gob.ar/portal-autenticidad"
+        },
+        {
+            "nombre": "Codo a Codo 4.0 - Especialización en Django",
+            "organizacion": "Gobierno de la Ciudad de Buenos Aires",
+            "fecha": "2023-07",
+            "credencial_id": "",
+            "credencial_url": "media/certificados/20230720._Codo_A_Codo_4.0_-_Especialización_en_Django.pdf"
+        },
+        {
+            "nombre": "Codo a Codo 4.0 - Full Stack Python",
+            "organizacion": "Gobierno de la Ciudad de Buenos Aires",
+            "fecha": "2022-12",
+            "credencial_id": "",
+            "credencial_url": "media/certificados/20221215._Codo_A_Codo_4.0_-_Full_Stack_Python.pdf"
+        },
+        {
+            "nombre": "Pensamiento Computacional",
+            "organizacion": "Agencia de Aprendizaje a lo largo de la vida, Ministerio de Educación, Gobierno de la Ciudad de Buenos Aires",
+            "fecha": "2023-06",
+            "credencial_id": "",
+            "credencial_url": "media/certificados/20230617._Pensamiento_Computacional_-_Agencia_de_Aprendizaje_a_lo_largo_de_la_vida_CABA.pdf"
+        }
+    ],
+    "habilidades": {
+        "Ciberseguridad": [
+            {"nombre": "Respuesta a incidentes de ciberseguridad", "nivel": 80},
+            {"nombre": "Análisis de Logs y SIEM", "nivel": 80},
+            {"nombre": "FortiSIEM", "nivel": 75},
+            {"nombre": "FortiGate", "nivel": 75},
+            {"nombre": "FortiMail", "nivel": 75},
+            {"nombre": "Principios de Ciberseguridad", "nivel": 85},
+            {"nombre": "Hacking Ético", "nivel": 80},
+            {"nombre": "Conocimientos de Redes y Sistemas", "nivel": 80},
+            {"nombre": "Introducción a Redes", "nivel": 90},
+            {"nombre": "Protección de Infraestructura Crítica", "nivel": 50},
+            {"nombre": "Protección de Datos Personales", "nivel": 70},
+            {"nombre": "Comprensión de Tácticas y Técnicas de Ataque", "nivel": 60},
+            {"nombre": "Herramientas de seguridad", "nivel": 60}
+        ],
+        "Técnicas": [
+            {"nombre": "Python", "nivel": 40},
+            {"nombre": "Django", "nivel": 40},
+            {"nombre": "HTML", "nivel": 60},
+            {"nombre": "Programación Orientada a Objetos", "nivel": 50},
+            {"nombre": "Bases de Datos", "nivel": 30},
+            {"nombre": "Linux", "nivel": 30},
+            {"nombre": "Windows", "nivel": 40},
+            {"nombre": "Reparación de equipos informáticos", "nivel": 80},
+            {"nombre": "Instalación de software", "nivel": 85},
+            {"nombre": "Blockchain", "nivel": 30},
+            {"nombre": "Pensamiento Computacional", "nivel": 45}
+        ],
+        "Blandas": [
+            {"nombre": "Resolución de problemas", "nivel": 80},
+            {"nombre": "Elaboración de informes", "nivel": 70},
+            {"nombre": "Adaptabilidad y aprendizaje continuo", "nivel": 80},
+            {"nombre": "Pensamiento crítico y analítico", "nivel": 80},
+            {"nombre": "Trabajo en equipo", "nivel": 90}
+        ]
+    },
+    "proyectos": [
+        {
+            "titulo": "Sistema de Ticketing con Django",
+            "descripcion": "Estoy en desarrollando un sistema web para registros de tickets de incidencias en Gendarmería Nacional Argentina.",
+            "periodo": "2022",
+            "url": "https://github.com/ivancarneiro/tickersec"
+        }
+    ],
+    "idiomas": [
+        {
+            "nombre": "Español",
+            "nivel": "Nativo"
+        },
+        {
+            "nombre": "Portugues",
+            "nivel": "Conversacional"
+        },
+        {
+            "nombre": "Inglés",
+            "nivel": "Técnico"
+        }
+    ]
+}
