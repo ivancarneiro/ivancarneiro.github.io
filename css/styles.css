@@ -273,7 +273,7 @@ html {
 /*setting up font sizes and base font family*/
 
 body {
-  minheight: 100%;
+  min-height: 100%;
   width: 100%;
   padding: 0;
   margin: 0;
@@ -453,8 +453,6 @@ ol {
   border: 12px #fff solid;
   height: 200px;
   width: 200px;
-  background: url("https://clarkhacks.github.io/a/img/resume/download.svg") center center no-repeat #fff;
-  background-size: 50px 50px;
   display: inline-block;
   margin-bottom: -140px;
   overflow: hidden;
